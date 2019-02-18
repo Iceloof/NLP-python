@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: NLP-python
+Version: 1.1.0
+Summary: Natural Language Processing to detect sentences are positive or negative
+Home-page: https://github.com/HurinHu/NLP-python
+Author: Hurin Hu
+Author-email: hurin@live.ca
+License: UNKNOWN
+Description: # Reuters News
+        Natural Language Processing to detect sentences are positive or negative
+        
+        ## Install
+        ```
+        pip install NLP-python
+        ```
+        
+        ## Usage
+        - Initializing
+        ```
+        from NLP import NLP
+        nlp = NLP()
+        ```
+        - Traning
+        Input a list of sentences, it will create a model file
+        ```
+        nlp.training(list)
+        ```
+        - Get model file
+        ```
+        nlp.getModel()
+        ```
+        - Match your sentence(list) to model, it will return a score
+        ```
+        nlp.match(sentence)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

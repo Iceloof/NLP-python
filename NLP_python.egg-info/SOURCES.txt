@@ -1,0 +1,8 @@
+README.md
+setup.py
+NLP/__init__.py
+NLP_python.egg-info/PKG-INFO
+NLP_python.egg-info/SOURCES.txt
+NLP_python.egg-info/dependency_links.txt
+NLP_python.egg-info/requires.txt
+NLP_python.egg-info/top_level.txt
